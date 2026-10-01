@@ -9,6 +9,7 @@ body {
   margin:0; 
   background:var(--red); 
   color:#4a3542; 
+  text-align:center;
 } 
 
 header { 
@@ -35,10 +36,9 @@ h2 {
   font-size:1.6rem; 
 } 
 
-
 img { 
-  width: 240px;
-  height: 240px;
-  border-radius: 70%;
-  object-fit: cover;
+  width:240px;
+  height:240px;
+  border-radius:50%;
+  object-fit:cover;
 }
