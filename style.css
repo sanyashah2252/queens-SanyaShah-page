@@ -1,14 +1,14 @@
 :root { 
   --red:#f3a9c2; 
   --gold:#f7c6d9; 
-  --blue:#d9b8d8; 
+  --blue:#c58bb5; 
 } 
 
 body { 
   font-family: system-ui, sans-serif; 
   margin:0; 
   background:var(--red); 
-  color:#fff; 
+  color:#4a3542; 
 } 
 
 header { 
@@ -19,7 +19,7 @@ header {
 
 main { 
   background:#fff; 
-  color:#1a1a1a; 
+  color:#4a3542; 
   max-width:900px; 
   margin:2rem auto; 
   border-radius:12px; 
@@ -30,15 +30,11 @@ a {
   color:var(--blue); 
 } 
 
-/* === personalize below by changing colors or spacing === */ 
-
-/* example: make headings blue and a bit larger */ 
 h2 { 
   color:var(--blue); 
   font-size:1.6rem; 
 } 
 
-/* example: make your photo round */ 
 img { 
   border-radius:12px; 
 }
