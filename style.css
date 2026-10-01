@@ -1,14 +1,10 @@
-body {
-  background: pink !important;
-}
-
 :root {
-  --pink: #f6d9e3;
-  --lavender: #ddd6f3;
-  --blue: #c9dff2;
-  --dark: #4a4654;
-  --white: #fffaff;
-  --accent: #9b7eaa;
+  --pink: #f8dce8;
+  --lavender: #e4dcf5;
+  --blue: #d8eafa;
+  --dark: #4b4652;
+  --accent: #9b7bb0;
+  --white: #fffafd;
 }
 
 body {
@@ -20,26 +16,24 @@ body {
 }
 
 header {
-  background: rgba(255, 250, 255, 0.85);
+  background: rgba(255, 250, 253, 0.9);
   color: var(--dark);
   padding: 2rem;
   text-align: center;
-  border-bottom: 2px solid rgba(155, 126, 170, 0.2);
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.4rem;
-  letter-spacing: 1px;
+  font-size: 2.5rem;
 }
 
 main {
-  background: rgba(255, 250, 255, 0.95);
+  background: var(--white);
   max-width: 900px;
   margin: 2.5rem auto;
   border-radius: 24px;
   padding: 2rem;
-  box-shadow: 0 10px 30px rgba(90, 70, 100, 0.12);
+  box-shadow: 0 10px 30px rgba(90, 70, 100, 0.15);
 }
 
 h2 {
@@ -74,4 +68,3 @@ img {
   border: 5px solid var(--lavender);
   box-shadow: 0 6px 18px rgba(90, 70, 100, 0.15);
 }
-
