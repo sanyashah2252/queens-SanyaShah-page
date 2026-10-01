@@ -9,13 +9,13 @@ body {
   margin:0; 
   background:var(--red); 
   color:#4a3542; 
-  text-align:center;
 } 
 
 header { 
   background:var(--blue); 
   color:#fff; 
   padding:1rem; 
+  text-align:center;
 } 
 
 main { 
@@ -26,6 +26,21 @@ main {
   border-radius:12px; 
   padding:1.5rem; 
 } 
+
+/* Center the About Me section and image */
+main > h2:first-of-type,
+main > p:first-of-type,
+main > img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+main > h2:first-of-type,
+main > p:first-of-type {
+  text-align:center;
+}
 
 a { 
   color:var(--blue); 
