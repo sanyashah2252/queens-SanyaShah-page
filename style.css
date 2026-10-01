@@ -1,12 +1,74 @@
+```css
 :root {
-  --red:#b90e31; --gold:#fabd0f; --blue:#002452;
+  --pink: #f6d9e3;
+  --lavender: #ddd6f3;
+  --blue: #c9dff2;
+  --dark: #4a4654;
+  --white: #fffaff;
+  --accent: #9b7eaa;
 }
-body { font-family: system-ui, sans-serif; margin:0; background:var(--red); color:#fff; }
-header { background:var(--blue); color:#fff; padding:1rem; }
-main { background:#fff; color:#1a1a1a; max-width:900px; margin:2rem auto; border-radius:12px; padding:1.5rem; }
-a { color: var(--blue); }
-/* === personalize below by changing colors or spacing === */
-/* example: make headings blue and a bit larger */
-h2 { color: var(--blue); font-size: 1.6rem; }
-/* example: make your photo round */
-img { border-radius: 12px; }
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, var(--pink), var(--lavender), var(--blue));
+  color: var(--dark);
+  min-height: 100vh;
+}
+
+header {
+  background: rgba(255, 250, 255, 0.85);
+  color: var(--dark);
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 2px solid rgba(155, 126, 170, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+}
+
+main {
+  background: rgba(255, 250, 255, 0.95);
+  max-width: 900px;
+  margin: 2.5rem auto;
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(90, 70, 100, 0.12);
+}
+
+h2 {
+  color: var(--accent);
+  font-size: 1.6rem;
+  margin-top: 1.8rem;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid var(--lavender);
+  box-shadow: 0 6px 18px rgba(90, 70, 100, 0.15);
+}
+```
