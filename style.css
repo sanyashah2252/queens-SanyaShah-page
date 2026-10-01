@@ -39,6 +39,6 @@ h2 {
 img { 
   width: 240px;
   height: 240px;
-  border-radius: 100%;
+  border-radius: 70%;
   object-fit: cover;
 }
