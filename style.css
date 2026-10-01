@@ -1,70 +1,44 @@
-:root {
-  --pink: #f8dce8;
-  --lavender: #e4dcf5;
-  --blue: #d8eafa;
-  --dark: #4b4652;
-  --accent: #9b7bb0;
-  --white: #fffafd;
-}
+:root { 
+  --red:#f6c1d1; 
+  --gold:#f8d9a0; 
+  --blue:#d8c7eb; 
+} 
 
-body {
-  font-family: system-ui, sans-serif;
-  margin: 0;
-  background: linear-gradient(135deg, var(--pink), var(--lavender), var(--blue));
-  color: var(--dark);
-  min-height: 100vh;
-}
+body { 
+  font-family: system-ui, sans-serif; 
+  margin:0; 
+  background:var(--red); 
+  color:#fff; 
+} 
 
-header {
-  background: rgba(255, 250, 253, 0.9);
-  color: var(--dark);
-  padding: 2rem;
-  text-align: center;
-}
+header { 
+  background:var(--blue); 
+  color:#fff; 
+  padding:1rem; 
+} 
 
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
+main { 
+  background:#fff; 
+  color:#1a1a1a; 
+  max-width:900px; 
+  margin:2rem auto; 
+  border-radius:12px; 
+  padding:1.5rem; 
+} 
 
-main {
-  background: var(--white);
-  max-width: 900px;
-  margin: 2.5rem auto;
-  border-radius: 24px;
-  padding: 2rem;
-  box-shadow: 0 10px 30px rgba(90, 70, 100, 0.15);
-}
+a { 
+  color:var(--blue); 
+} 
 
-h2 {
-  color: var(--accent);
-  font-size: 1.6rem;
-  margin-top: 1.8rem;
-}
+/* === personalize below by changing colors or spacing === */ 
 
-p {
-  line-height: 1.7;
-}
+/* example: make headings blue and a bit larger */ 
+h2 { 
+  color:var(--blue); 
+  font-size:1.6rem; 
+} 
 
-ul {
-  line-height: 1.8;
-}
-
-a {
-  color: var(--accent);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  display: block;
-  margin: 1.5rem auto;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid var(--lavender);
-  box-shadow: 0 6px 18px rgba(90, 70, 100, 0.15);
+/* example: make your photo round */ 
+img { 
+  border-radius:12px; 
 }
