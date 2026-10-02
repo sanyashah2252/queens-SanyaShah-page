@@ -1,59 +1,50 @@
-:root { 
-  --red:#f3a9c2; 
-  --gold:#f7c6d9; 
-  --blue:#c58bb5; 
-} 
-
-body { 
-  font-family: system-ui, sans-serif; 
-  margin:0; 
-  background:var(--red); 
-  color:#4a3542; 
-} 
-
-header { 
-  background:var(--blue); 
-  color:#fff; 
-  padding:1rem; 
-  text-align:center;
-} 
-
-main { 
-  background:#fff; 
-  color:#4a3542; 
-  max-width:900px; 
-  margin:2rem auto; 
-  border-radius:12px; 
-  padding:1.5rem; 
-} 
-
-/* Center the About Me section and image */
-main > h2:first-of-type,
-main > p:first-of-type,
-main > img {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  text-align:center;
+```css
+:root {
+  --red: #f3a9c2;
+  --gold: #f7c6d9;
+  --blue: #c58bb5;
 }
 
-main > h2:first-of-type,
-main > p:first-of-type {
-  text-align:center;
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: var(--red);
+  color: #4a3542;
 }
 
-a { 
-  color:var(--blue); 
-} 
-
-h2 { 
-  color:var(--blue); 
-  font-size:1.6rem; 
-} 
-
-img { 
-  width:240px;
-  height:240px;
-  border-radius:50%;
-  object-fit:cover;
+header {
+  background: var(--blue);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
 }
+
+main {
+  background: #fff;
+  color: #4a3542;
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+main > div {
+  text-align: left;
+}
+
+a {
+  color: var(--blue);
+}
+
+h2 {
+  color: var(--blue);
+  font-size: 1.6rem;
+}
+
+img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+```
